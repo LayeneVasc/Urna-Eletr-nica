@@ -1,0 +1,224 @@
+.base{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h2{
+  margin-left:40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+
+.contagem{
+  border: 2px solid black;
+  height: 400px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 250px;
+   box-shadow:0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+  font-size: 20px;
+  text-align:center;
+  
+  
+}
+
+.urna{
+    background-color: #e6e6e6;
+    padding: 20px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    width:75%;
+    height:600px;
+    width: 950px;
+}
+
+.tela{
+    display:40%;
+    width: 610px;  
+    height: 450px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;  
+}
+
+.teclado{
+    background-color: #000000;
+    width: 390px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    padding:18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:90px;  
+}
+
+.titulo h2{
+  margin-left:40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+
+.teclado_linha{
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teclado_botao{
+   width: 60px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_branco{
+  background-color: #ffffff;
+   color: #000000;
+   border: 1px solid #798eab;
+  width: 120px;
+    height: 50px;
+  margin-top: 20px;
+}
+
+.btn_corrige{
+    background-color: #ed7d31;
+   border: 1px solid #785f63;   
+   color: black;
+   width: 120px;
+    height: 50px;
+  margin-top:20px;
+}
+
+.btn_confirma{
+    width: 100%;
+   height: 50px;
+   background-color: #00af50;
+   color: black;
+   border: 1px solid #0c703b;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.info{
+    flex: 1;
+    display: flex;
+}
+
+.div_left{
+   flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.seuVoto{
+   font-weight: bold;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  margin: 20px;
+}
+
+.cargo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.div_numeros{
+    height: 50px;
+}
+
+.numero{
+    background-color: #e6e6e6;
+    float: left; 
+    width: 40px;
+    height: 60px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px; 
+    margin: 1px;  
+}
+
+.pisca{
+    animation: pisca 1.2s;
+    animation-iteration-count: infinite;
+}
+
+.descricao{
+   flex: 1;
+    line-height: 40px;
+}
+
+.div_right{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.div_image{
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.div_image img{
+    width: 100%;
+}
+
+.div_image.small{
+    width: 80%;
+    font-size: 12px;
+}
+
+.rodape_tela{
+  height: 80px;
+  width: 570px;
+  background-color: #e6e6e6;
+  margin: 70px 20px 2px 20px;
+  font-size: 20px;
+  border: 1px solid #000; 
+}
+
+.aviso_grande{
+    flex: 1;
+    font-size: 40px;
+    text-align: center;
+ 
+    
+}
+
+.aviso_gigante{
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+   margin-top: 80px;
+}
